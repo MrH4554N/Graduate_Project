@@ -620,6 +620,22 @@
     [
       "5608137a-e4aa-4fc5-a1c7-a13152d0b864",
       "Root"
+    ],
+    [
+      "b81b2d94-1e34-4e7a-a495-c468ec4a4433",
+      "Relays"
+    ],
+    [
+      "de7250b6-5542-41da-b336-1d929c24525c",
+      "POWER"
+    ],
+    [
+      "d6c4ba18-c1bf-4485-9dc0-9fe92f23a10e",
+      "PICs"
+    ],
+    [
+      "c6b08508-98ca-4285-af8b-bd66e883072e",
+      "CONNECTORS"
     ]
   ],
   "text_variables": {}
