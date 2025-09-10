@@ -662,23 +662,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:KA78M05_TO252"
+		(symbol "KA78M05_TO252_1"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KA78M05_TO252"
-				(at 0 3.175 0)
+			(property "Reference" "U2"
+				(at -6.858 -8.636 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -686,7 +678,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(property "Value" "78L05G-AB3-R"
+				(at -9.398 -8.636 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -706,6 +707,364 @@
 				)
 			)
 			(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence JLCPCB" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence price@reel" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence prive@1" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JCLPCB" "C71136"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MfgNo" "78L05G-AB3-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalen" "78L05G-AB3-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalen JLCPCB" "C71136"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalence price@1" "0.0614"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalence price@reel" "0.0371"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "price@1" "0.0614"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "price@reel" "0.0371"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 500mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KA78M05_TO252_1_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "KA78M05_TO252_1_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:KA78M05_TO252"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at -6.858 -10.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "78L05G-AB3-R"
+				(at -9.398 -10.16 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence JLCPCB" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence price@reel" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ExtendedPreferedEquivalence prive@1" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JCLPCB" "C71136"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MfgNo" "78L05G-AB3-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalen" "78L05G-AB3-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalen JLCPCB" "C71136"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalence price@1" "0.0614"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "basicEquivalence price@reel" "0.0371"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "price@1" "0.0614"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "price@reel" "0.0371"
 				(at 0 0 0)
 				(effects
 					(font
@@ -746,7 +1105,7 @@
 				)
 			)
 			(symbol "KA78M05_TO252_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "VI"
@@ -764,7 +1123,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -782,7 +1141,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "VO"
@@ -981,20 +1340,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
+			(property "Reference" "D4"
+				(at 1.2701 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "FM4007"
-				(at 0 -5.08 0)
+				(at -1.2699 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD"
@@ -1058,7 +1419,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "C"
@@ -1076,7 +1437,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
@@ -1101,20 +1462,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 8.89 0)
+			(property "Reference" "U4"
+				(at -1.2701 7.62 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "L78L15ABUTR"
-				(at 0 -11.43 0)
+			(property "Value" "26V-15V L78L15ABUTR"
+				(at 1.2699 7.62 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL"
@@ -1165,7 +1528,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -12.7 3.81 0)
 					(length 5.08)
 					(name "VIN"
@@ -1183,7 +1546,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -6.35 90)
 					(length 5.08)
 					(name "GND"
@@ -1201,7 +1564,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 3.81 180)
 					(length 5.08)
 					(name "VOUT"
@@ -2146,6 +2509,12 @@
 		(uuid "886f9847-723d-42d5-a553-434770a5480f")
 	)
 	(junction
+		(at 160.02 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95858830-adab-4157-8d0b-6438c630be92")
+	)
+	(junction
 		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,12 +2543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba515014-8dbf-4273-b8dd-308ab82f92a7")
-	)
-	(junction
-		(at 160.02 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc1e2536-e5e6-49e1-954a-6f3375c09728")
 	)
 	(junction
 		(at 144.78 107.95)
@@ -2300,6 +2663,16 @@
 			(type default)
 		)
 		(uuid "0e4de531-4e63-4624-91dd-ee6a511c25a7")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c09893-1eef-4f92-a78d-41a1b2b8e617")
 	)
 	(wire
 		(pts
@@ -2603,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 62.23) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb32929-94af-46bf-b305-da8079a8ae20")
+	)
+	(wire
+		(pts
 			(xy 100.33 43.18) (xy 93.98 43.18)
 		)
 		(stroke
@@ -2693,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 59.69) (xy 160.02 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a50f8618-f170-4038-afab-3a8a0e721816")
-	)
-	(wire
-		(pts
 			(xy 114.3 93.98) (xy 116.84 93.98)
 		)
 		(stroke
@@ -2750,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "b4d25565-e5fd-4956-8068-9f5ce4828809")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbae3c4-c088-440f-9fe4-be26138dff6b")
 	)
 	(wire
 		(pts
@@ -2820,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "dbcea93d-2266-4d80-ab29-33df0d20d8bc")
-	)
-	(wire
-		(pts
-			(xy 160.02 60.96) (xy 160.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd750427-84b8-4c0f-97d7-e594f4c414cd")
 	)
 	(wire
 		(pts
@@ -2985,7 +3358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e4eb2b-908f-4fc5-b2e4-7ffd2e84c2d5")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 173.99 96.5199 90)
 			(effects
 				(font
@@ -3039,6 +3412,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 166.37 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28eab565-e3e3-49eb-9fa5-1de0c006899a")
 		)
@@ -3051,7 +3433,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18e1d67f-5066-4d79-a1fe-4eceeeaa97df")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR017"
 			(at 193.04 135.89 0)
 			(effects
 				(font
@@ -3116,7 +3498,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR036")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e789768-ec96-477f-ae0f-f19a4e48aa2a")
-		(property "Reference" "R17"
+		(property "Reference" "R6"
 			(at 107.442 60.96 90)
 			(effects
 				(font
@@ -3177,6 +3559,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 105.41 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1206ef0a-b6a8-4a3e-b8fa-d82a88bb8564")
 		)
@@ -3186,7 +3577,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R17")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b87f100-c3ad-47fa-880e-bff1cf474212")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 95.25 78.994 90)
 			(effects
 				(font
@@ -3244,6 +3635,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 95.25 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd940f42-37e5-4ff3-bca0-ba1f77c86c8a")
 		)
@@ -3253,7 +3653,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3269,7 +3669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30f48bf4-f36b-4ee6-bad0-20f99e1b8078")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 138.684 71.882 0)
 			(effects
 				(font
@@ -3314,6 +3714,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cac35a3e-adaa-4dcf-80ba-8a2a23c087e9")
 		)
@@ -3323,7 +3732,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3339,7 +3748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31967421-50a8-42de-93ca-c3b68b965570")
-		(property "Reference" "R55"
+		(property "Reference" "R9"
 			(at 177.8 119.888 90)
 			(effects
 				(font
@@ -3384,6 +3793,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 176.53 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e95e285c-f08a-4aed-a204-ab7f43a6398b")
 		)
@@ -3393,7 +3811,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R55")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3408,7 +3826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33b0a75e-adab-455f-884f-b1687b91ca14")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 110.49 39.624 90)
 			(effects
 				(font
@@ -3451,6 +3869,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 110.49 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d2f376a-b820-4e2b-ba79-194bcf94fbb9")
 		)
@@ -3460,7 +3887,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3475,7 +3902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39f8ebff-6fdd-4823-b9b9-3317249cb0dd")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 153.67 38.354 90)
 			(effects
 				(font
@@ -3518,6 +3945,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 153.67 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f50641a-4169-4b5d-89b3-5e132eaa644a")
 		)
@@ -3527,7 +3963,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3542,7 +3978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40e853e3-36f7-40f1-a597-9670f577ccd7")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 149.098 90.17 90)
 			(effects
 				(font
@@ -3585,6 +4021,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fbdda1c-fa8a-40d9-9921-24d0cab5b710")
 		)
@@ -3594,7 +4039,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3609,7 +4054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47e3d5fa-da82-47bc-92a9-2fa1bdb37f66")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 167.64 78.74 0)
 			(effects
 				(font
@@ -3659,7 +4104,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3674,7 +4119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4db405ce-be84-4fb0-9c73-0862f8cc4e9f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 134.62 87.122 90)
 			(effects
 				(font
@@ -3828,6 +4273,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 144.78 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f3f86b42-009a-47b5-af85-7cc67c6b0f08")
 		)
@@ -3840,7 +4294,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3855,7 +4309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dea9921-6405-4b1c-8176-755dc140e6de")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -3905,7 +4359,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3921,7 +4375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55454ff3-4b31-4128-9d27-3a9736294ef0")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 101.6 64.7699 90)
 			(effects
 				(font
@@ -3975,6 +4429,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 96.52 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29542512-9bc5-402d-a3d0-de8eff78c7f1")
 		)
@@ -3990,7 +4453,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4005,7 +4468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b0f9190-55b6-44bf-8bdf-67b59b5c7b2c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR011"
 			(at 130.81 107.95 0)
 			(effects
 				(font
@@ -4055,7 +4518,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR030")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74c10eb4-d769-4095-904a-7dd35520f6d6")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 128.778 90.17 90)
 			(effects
 				(font
@@ -4113,6 +4576,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 132.08 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7a9433f-b079-416b-9e44-e26feb578875")
 		)
@@ -4122,7 +4594,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74e84c99-9595-4fa5-a6a5-5f8abbe43f4a")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 177.038 88.9 90)
 			(effects
 				(font
@@ -4180,6 +4652,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 180.34 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3fbe9ec-a4c9-4f0c-8a15-cf6afbbca817")
 		)
@@ -4189,7 +4670,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7725c3fa-3e67-4663-b781-085987fe425e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 132.08 48.26 0)
 			(effects
 				(font
@@ -4254,7 +4735,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4269,7 +4750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bf71f8d-26a5-4e6b-bd01-3299d386cbc9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR06"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -4319,7 +4800,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR028")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "838b8591-1a8d-49ff-ac8a-77718d956ca2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -4384,7 +4865,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84752d8c-3542-45a3-b77b-a18cf4a872ba")
-		(property "Reference" "TU1"
+		(property "Reference" "TU3"
 			(at 160.655 67.31 0)
 			(effects
 				(font
@@ -4453,6 +4934,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f11aa93d-bfbf-4969-b920-21351f771cec")
 		)
@@ -4462,13 +4952,14 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "TU1")
+					(reference "TU3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "KA78M05_TO252_1")
 		(lib_id "Regulator_Linear:KA78M05_TO252")
 		(at 124.46 93.98 270)
 		(unit 1)
@@ -4477,7 +4968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b1da5f4-e3c1-43df-8d1a-86c3d1900fea")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 115.824 87.122 90)
 			(effects
 				(font
@@ -4631,6 +5122,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 124.46 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3e1d8bd4-3334-4eea-a12d-a35372c10958")
 		)
@@ -4643,7 +5143,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4659,7 +5159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eada384-0abf-4ecf-ba04-89bc6aa543c2")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 146.558 76.2 90)
 			(effects
 				(font
@@ -4704,6 +5204,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 148.59 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c71027f3-2422-4a73-9423-ce643f96c494")
 		)
@@ -4713,7 +5222,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R18")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4729,7 +5238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb89c37-3269-4c9f-82f7-f1d6cc244257")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 162.56 53.3399 90)
 			(effects
 				(font
@@ -4783,6 +5292,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 160.02 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b138277b-5e88-4970-81e4-a08d1e7554b7")
 		)
@@ -4792,7 +5310,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4807,7 +5325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fd50e67-11ff-484a-b95f-585b3fe72867")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -4857,7 +5375,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4873,7 +5391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4646c66-708c-47a2-ac46-00072c6dfb33")
-		(property "Reference" "TU4"
+		(property "Reference" "TU2"
 			(at 138.43 114.046 0)
 			(effects
 				(font
@@ -4925,6 +5443,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff9eef34-0a54-4c80-bfe2-d1681990596e")
 		)
@@ -4934,7 +5461,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "TU4")
+					(reference "TU2")
 					(unit 1)
 				)
 			)
@@ -4950,7 +5477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb591b9-e84f-4f88-9283-5f2ec68a3da4")
-		(property "Reference" "R56"
+		(property "Reference" "R10"
 			(at 184.15 123.952 90)
 			(effects
 				(font
@@ -4995,6 +5522,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 185.42 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01c31da5-1343-4e64-8650-db3398b45d6a")
 		)
@@ -5004,7 +5540,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R56")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5019,7 +5555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af2cd365-76f0-4e0c-af52-311f0092e513")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 93.472 46.99 90)
 			(effects
 				(font
@@ -5062,6 +5598,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 100.33 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc3e4b3f-50cd-4490-abb4-1d51e46f4b3c")
 		)
@@ -5071,7 +5616,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5087,7 +5632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b00bbf2d-fda7-4c28-a734-abc1ff55f48d")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 109.22 52.832 90)
 			(effects
 				(font
@@ -5132,6 +5677,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 110.49 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c98f6ac5-cf88-4fa6-a2ba-4c76330145ee")
 		)
@@ -5141,7 +5695,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5156,7 +5710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c235e0f4-247e-4520-bcc2-cf10547d7ae7")
-		(property "Reference" "TU5"
+		(property "Reference" "TU1"
 			(at 119.126 111.506 0)
 			(effects
 				(font
@@ -5208,6 +5762,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f645b55-4c6f-4d5b-ab40-3c20f1852da7")
 		)
@@ -5217,7 +5780,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "TU5")
+					(reference "TU1")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a194cd-9a09-4394-b780-19e4928e046c")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 130.81 24.13 90)
 			(effects
 				(font
@@ -5249,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -5276,6 +5839,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 132.08 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "70895c97-00f7-4cdb-acae-cabfb2aed3de")
 		)
@@ -5291,7 +5863,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5307,7 +5879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf41b3c-4ab5-40b5-b569-849e06c0b5b5")
-		(property "Reference" "R22"
+		(property "Reference" "R11"
 			(at 195.072 127 90)
 			(effects
 				(font
@@ -5352,6 +5924,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 193.04 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83ffbbd2-b57f-4706-a588-c9f20733ea01")
 		)
@@ -5361,7 +5942,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "R22")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5377,7 +5958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d626e38d-1284-4cb5-9337-537a343e5b1d")
-		(property "Reference" "TU3"
+		(property "Reference" "TU4"
 			(at 167.005 119.38 0)
 			(effects
 				(font
@@ -5429,6 +6010,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90fecb0c-796b-4a97-872a-abc49ee7b383")
 		)
@@ -5438,7 +6028,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "TU3")
+					(reference "TU4")
 					(unit 1)
 				)
 			)
@@ -5453,7 +6043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d69ccc33-bb1d-4173-b5cb-53ed2d63342b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -5503,7 +6093,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5518,7 +6108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eac01dd5-e00b-4007-ab6a-1bfc9cbbf533")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR014"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -5568,7 +6158,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR034")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5576,7 +6166,7 @@
 	)
 	(symbol
 		(lib_id "power:+28V")
-		(at 160.02 60.96 270)
+		(at 161.29 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5584,8 +6174,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa006056-4705-4cb4-9913-c9352c99946a")
-		(property "Reference" "#PWR031"
-			(at 156.21 60.96 0)
+		(property "Reference" "#PWR013"
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +6184,7 @@
 			)
 		)
 		(property "Value" "+26V"
-			(at 163.83 60.9599 90)
+			(at 165.1 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +6193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 67.31 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 67.31 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +6211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+28V\""
-			(at 160.02 60.96 0)
+			(at 161.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +6225,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR031")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5650,7 +6240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa8b47e6-1a21-42d0-8fec-31e7f4546e52")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR016"
 			(at 180.34 99.06 0)
 			(effects
 				(font
@@ -5700,7 +6290,7 @@
 		(instances
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "#PWR035")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

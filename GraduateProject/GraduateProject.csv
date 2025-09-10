@@ -1,0 +1,41 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C10,C11",3,50V 10nF,,,,Capacitor_SMD:C_0805_2012Metric,~
+"C2,C4,C5,C7,C8,C13,C14,C15,C16,C17,C18,C20,C21,C22,C23",15,50V 1.5nF,,,,Capacitor_SMD:C_0805_2012Metric,~
+C3,1,50V 68nF ceramic,,,,Capacitor_SMD:C_0805_2012Metric,~
+C6,1,50V 10nF ceramic,,,,Capacitor_SMD:C_1206_3216Metric,~
+"C9,C12",2,50V 68pF,,,,Capacitor_SMD:C_0805_2012Metric,~
+C19,1,50V 68nF,,,,Capacitor_SMD:C_0805_2012Metric,~
+"D1,D2,D3,D5,D6",5,BZV55B36,,,,Diode_SMD:D_MiniMELF,https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf
+D4,1,FM4007,,,,easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD,https://lcsc.com/product-detail/Diodes-General-Purpose_LGE-FM4007_C402244.html
+"D7,D8",2,ZMM15_C179550,,,,easyeda2kicad:SOD-80_L3.5-W1.5-RD,https://lcsc.com/product-detail/Zener-Diodes_ZMM15_C179550.html
+"IC1,IC2",2,PIC16C620A-04/SS,,,,easyeda2kicad:SSOP-20_L7.2-W5.3-P0.65-LS7.8-BL,
+"J1,J7,J8",3,Conn_01x05_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~
+"J2,J5,J6",3,Conn_01x04_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+"J3,J4",2,Conn_01x06_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~
+"Q1,Q2,Q3",3,MMBTRA101SS,,,,easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR,
+"Q4,Q11",2,"BST50,115",,,,easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.0-TR,
+"Q5,Q8",2,IMT2AT108,,,,easyeda2kicad:SOT-457-6_L2.9-W1.7-P0.95-LS2.8-BR,https://lcsc.com/product-detail/Transistors-NPN-PNP_ROHM_IMT2AT108_IMT2AT108_C74697.html
+"Q6,Q7,Q9,Q10,Q12,Q13,Q14,Q15",8,IMX1T110,,,,easyeda2kicad:SOT-457_L2.9-W1.6-P0.95-LS2.80-BR,https://lcsc.com/product-detail/Pre-ordered-Products_ROHM-Semicon_IMX1T110_ROHM-Semicon-IMX1T110_C509893.html
+"R1,R3,R4,R9,R12,R13,R17,R24,R46",9,1k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R2,R5",2,4.7k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R6,R11,R14,R16,R21",5,33k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R7,R15,R23",3,3.3k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R8,R27,R29,R32,R38,R54",6,10R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R10,R30,R31,R33,R34",5,100R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R18,R20,R25,R44",4,47k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R19,R22,R50,R51",4,10k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R26,R43,R45",3,4.7R,,,,Resistor_SMD:R_0805_2012Metric,~
+R28,1,330R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R35,R39,R40",3,150R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R36,R42",2,470R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R37,R41,R49,R53",4,270R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R47,R52,R57,R58",4,100k,,,,Resistor_SMD:R_0805_2012Metric,~
+"R48,R55,R56,R59",4,27k,,,,Resistor_SMD:R_0805_2012Metric,~
+"REL1,REL2",2,V23057-B0006-A101,,,,easyeda2kicad:RELAY-TH_TE_V23057BXXX,
+SW1,1,SS12D10G3,,,,easyeda2kicad:SW-TH_3P-P4.8-L12.7-W6.7_SS12D10G3,
+"TU1,TU2,TU5,TU6",4,10uF 16V,,,,easyeda2kicad:CAP-SMD_L3.2-W1.6-RD-C7171,https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJA106K016RNJ_10uF-106-10-16V_C7171.html
+"TU3,TU7",2,3.3uF 35V,,,,easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD,https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB335K035RNJ_3-3uF-335-10-35V_C7201.html
+TU4,1,2.2uF 35V,,,,easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD,https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB225K035RNJ-RHOS_2-2uF-225-10-35V_C19276.html
+U1,1,TLP181GB-S,,,,easyeda2kicad:SOP-4_L3.7-W4.6-P2.54-LS7.0-TL,https://lcsc.com/product-detail/New-Arrivals_Youtai-Semiconductor-Co-Ltd-TLP181GB-S_C388374.html
+"U2,U3",2,78L05G-AB3-R,,,,Package_TO_SOT_SMD:SOT-89-3,https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
+U4,1,26V-15V L78L15ABUTR,,,,easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL,https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L78L15ABUTR_L78L15ABUTR_C81364.html
