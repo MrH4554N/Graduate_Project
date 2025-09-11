@@ -845,36 +845,54 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:BST50,115"
+		(symbol "Transistor_BJT:BCX56"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 0 15.24 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "BST50,115"
-				(at 0 -15.24 0)
+			(property "Value" "BCX56"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.0-TR"
-				(at 0 -17.78 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
 				(at 0 0 0)
 				(effects
 					(font
@@ -883,7 +901,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -892,8 +910,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C549764"
-				(at 0 -20.32 0)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -901,10 +919,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BST50,115_0_1"
+			(symbol "BCX56_0_1"
 				(polyline
 					(pts
-						(xy -5.08 4.83) (xy -5.08 0.25)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -916,7 +934,32 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.3) (xy -2.54 4.83) (xy 2.54 4.83) (xy 2.54 2.54) (xy 0 0.76)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCX56_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -928,7 +971,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 1.78) (xy -2.54 0)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -940,128 +983,19 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -3.3 1.27) (xy -4.06 0.25) (xy -2.54 0)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.29 -5.08) (xy -1.52 -5.08) (xy -1.27 -4.32) (xy -0.76 -5.84) (xy -0.25 -4.32)
-						(xy 0.25 -5.84) (xy 0.76 -4.32) (xy 1.27 -5.84) (xy 1.52 -5.08) (xy 2.29 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.29) (xy 0 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.29 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 4.83) (xy 5.08 4.83) (xy 5.08 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.76) (xy 4.06 -1.02) (xy 6.1 -1.02) (xy 5.08 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.02) (xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -2.54) (xy 0 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.1 0.76) (xy 4.06 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 5.08)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1069,7 +1003,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1077,9 +1011,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 10.16 270)
-					(length 5.08)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
 					(name "C"
 						(effects
 							(font
@@ -1095,9 +1029,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 2.54 -10.16 90)
-					(length 5.08)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
 					(name "E"
 						(effects
 							(font
@@ -1105,7 +1039,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3026,6 +2960,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 102.87) (xy 262.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7039d9c5-dd08-46ee-91aa-94f4bc691eca")
+	)
+	(wire
+		(pts
 			(xy 151.13 80.01) (xy 151.13 71.12)
 		)
 		(stroke
@@ -3066,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 102.87) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d72c10-e020-401c-ac5a-5f9143bf19ed")
+	)
+	(wire
+		(pts
 			(xy 95.25 86.36) (xy 100.33 86.36)
 		)
 		(stroke
@@ -3073,6 +3027,16 @@
 			(type default)
 		)
 		(uuid "77c98130-31df-4c88-938c-327b8bb94abf")
+	)
+	(wire
+		(pts
+			(xy 267.97 115.57) (xy 274.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789d5520-0936-432e-b421-c29ff29332e0")
 	)
 	(wire
 		(pts
@@ -3246,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 115.57) (xy 254 115.57)
+			(xy 251.46 115.57) (xy 257.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3463,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "c0cd4409-7438-4a3c-9ecf-0da1843e72df")
-	)
-	(wire
-		(pts
-			(xy 266.7 102.87) (xy 256.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40625dd-e26c-46b9-a345-f93ed7ec334c")
 	)
 	(wire
 		(pts
@@ -5446,95 +5400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:BST50,115")
-		(at 264.16 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "734db563-afea-4159-ae70-7626c449675f")
-		(property "Reference" "Q4"
-			(at 263.78 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BST50,115"
-			(at 263.78 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.0-TR"
-			(at 246.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C549764"
-			(at 243.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 264.16 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4723ceee-cc34-413d-9053-40db16cdb414")
-		)
-		(pin "1"
-			(uuid "f29b61ef-cc35-406c-8b8c-99058de4d030")
-		)
-		(pin "2"
-			(uuid "3035f7fd-68be-4bbc-86a7-14a2f76e964d")
-		)
-		(instances
-			(project "GraduateProject"
-				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/d6c4ba18-c1bf-4485-9dc0-9fe92f23a10e"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:TAJA106K016RNJ")
 		(at 154.94 46.99 90)
 		(unit 1)
@@ -6905,6 +6770,80 @@
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/d6c4ba18-c1bf-4485-9dc0-9fe92f23a10e"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BCX56")
+		(at 262.89 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29f8761-2300-40de-bdc1-15e7fdc4fc26")
+		(property "Reference" "Q8"
+			(at 262.89 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BCX56 AS1-NPN"
+			(at 262.89 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 260.985 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BCP56_BCX56_BC56PA.pdf"
+			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89"
+			(at 262.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3595421-6dfa-4a85-996e-e1075475ab0d")
+		)
+		(pin "3"
+			(uuid "8e813299-cc0f-448a-a4a4-826446ed41b9")
+		)
+		(pin "1"
+			(uuid "7f6ce466-b3b0-4ff9-aa93-a5335ef21491")
+		)
+		(instances
+			(project ""
+				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/d6c4ba18-c1bf-4485-9dc0-9fe92f23a10e"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
