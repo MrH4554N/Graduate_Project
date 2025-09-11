@@ -717,7 +717,7 @@
 	)
 	(sheet
 		(at 61.468 100.584)
-		(size 17.272 23.622)
+		(size 17.272 18.796)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -741,7 +741,7 @@
 			)
 		)
 		(property "Sheetfile" "Relays.kicad_sch"
-			(at 61.468 124.7906 0)
+			(at 61.468 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
