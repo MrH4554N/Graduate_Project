@@ -2736,16 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 43.18) (xy 132.08 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ec3330-20c9-4d6d-b813-532030af2f14")
-	)
-	(wire
-		(pts
 			(xy 33.02 99.06) (xy 44.45 99.06)
 		)
 		(stroke
@@ -3030,7 +3020,7 @@
 	)
 	(hierarchical_label "5V_PIC2"
 		(shape input)
-		(at 128.27 43.18 180)
+		(at 132.08 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)

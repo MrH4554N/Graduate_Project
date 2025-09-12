@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.5400000214576721
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -36,6 +36,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "GraduateProject.kicad_prl",
+    "filename": "Connector.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

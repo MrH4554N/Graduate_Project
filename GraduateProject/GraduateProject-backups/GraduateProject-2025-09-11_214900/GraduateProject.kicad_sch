@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 58.42) (xy 195.58 58.42)
+			(xy 167.64 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 66.04) (xy 198.12 66.04)
+			(xy 167.64 66.04) (xy 198.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 128.27 68.58)
+			(xy 132.08 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 200.66 73.66)
+			(xy 167.64 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 55.88) (xy 204.47 55.88)
+			(xy 167.64 55.88) (xy 204.47 55.88)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 133.35 55.88)
+			(xy 99.06 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 199.39 68.58)
+			(xy 167.64 68.58) (xy 199.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +317,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 52.07) (xy 133.35 52.07)
+			(xy 118.11 52.07) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -407,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 130.81 73.66)
+			(xy 132.08 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 43.18) (xy 133.35 43.18)
+			(xy 78.74 43.18) (xy 132.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 63.5) (xy 125.73 63.5)
+			(xy 132.08 63.5) (xy 125.73 63.5)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 124.46 48.26)
+			(xy 132.08 48.26) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -557,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 129.54 71.12)
+			(xy 132.08 71.12) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +627,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 102.87 60.96)
+			(xy 132.08 60.96) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -647,7 +647,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 119.38 58.42)
+			(xy 132.08 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +667,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 196.85 60.96)
+			(xy 167.64 60.96) (xy 196.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -687,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 133.35 45.72)
+			(xy 78.74 45.72) (xy 132.08 45.72)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 127 66.04)
+			(xy 132.08 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +960,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 40.132)
+		(at 132.08 40.132)
 		(size 35.56 37.592)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -976,7 +976,7 @@
 		)
 		(uuid "d6c4ba18-c1bf-4485-9dc0-9fe92f23a10e")
 		(property "Sheetname" "PICs"
-			(at 133.35 39.4204 0)
+			(at 132.08 39.4204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +985,7 @@
 			)
 		)
 		(property "Sheetfile" "PICs.kicad_sch"
-			(at 133.35 78.3086 0)
+			(at 132.08 78.3086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +994,7 @@
 			)
 		)
 		(pin "5V_PIC1" input
-			(at 133.35 43.18 180)
+			(at 132.08 43.18 180)
 			(uuid "d340c8e7-6a10-4589-8d21-db18dd4fea40")
 			(effects
 				(font
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(pin "5V_PIC2" input
-			(at 133.35 45.72 180)
+			(at 132.08 45.72 180)
 			(uuid "da5a9d76-fc29-42b0-8b50-4ccf3caf49ab")
 			(effects
 				(font
@@ -1014,7 +1014,7 @@
 			)
 		)
 		(pin "CONN_J3_4" input
-			(at 133.35 48.26 180)
+			(at 132.08 48.26 180)
 			(uuid "2c08c8c6-6735-4c3a-b08e-acbaba8676e5")
 			(effects
 				(font
@@ -1024,7 +1024,7 @@
 			)
 		)
 		(pin "RA2_PIC1" output
-			(at 133.35 58.42 180)
+			(at 132.08 58.42 180)
 			(uuid "fe7009f8-578f-4350-bcd4-c1e1149d6e1e")
 			(effects
 				(font
@@ -1034,7 +1034,7 @@
 			)
 		)
 		(pin "RA2_PIC2" input
-			(at 168.91 58.42 0)
+			(at 167.64 58.42 0)
 			(uuid "7fbcbda1-c6ec-46a6-aece-2b400ba37a16")
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 			)
 		)
 		(pin "RA4_T0CKI" input
-			(at 133.35 52.07 180)
+			(at 132.08 52.07 180)
 			(uuid "bd63eb1b-2e19-46f7-84f9-687c8281b667")
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(pin "RB1_PIC1" input
-			(at 133.35 55.88 180)
+			(at 132.08 55.88 180)
 			(uuid "0782ed62-9adb-4861-a1b5-164f5c228063")
 			(effects
 				(font
@@ -1064,7 +1064,7 @@
 			)
 		)
 		(pin "RB1_PIC2" input
-			(at 168.91 55.88 0)
+			(at 167.64 55.88 0)
 			(uuid "44e6fc9f-d57c-4de7-afbe-19943139c9cc")
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 			)
 		)
 		(pin "RB2_PIC1" input
-			(at 133.35 60.96 180)
+			(at 132.08 60.96 180)
 			(uuid "1e0402f0-67e9-4f6a-bca1-2fd247b0184a")
 			(effects
 				(font
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(pin "RB3_PIC1" input
-			(at 133.35 63.5 180)
+			(at 132.08 63.5 180)
 			(uuid "d0a838c8-671c-4e5f-8643-1c8ffeba7f6f")
 			(effects
 				(font
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(pin "RB3_PIC2" input
-			(at 168.91 60.96 0)
+			(at 167.64 60.96 0)
 			(uuid "96495be8-151f-4355-a907-d98b901562e3")
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(pin "RB4_PIC1" input
-			(at 133.35 66.04 180)
+			(at 132.08 66.04 180)
 			(uuid "458b72ba-b459-471e-aca3-144c4d609d61")
 			(effects
 				(font
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(pin "RB4_PIC2" input
-			(at 168.91 66.04 0)
+			(at 167.64 66.04 0)
 			(uuid "202dfc79-9d6e-41f4-aa4c-aeeb6ac60abd")
 			(effects
 				(font
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(pin "RB5_PIC1" input
-			(at 133.35 68.58 180)
+			(at 132.08 68.58 180)
 			(uuid "97b0c6b7-e19d-4258-b7f4-b01b9712fae4")
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(pin "RB6_PIC1" input
-			(at 133.35 71.12 180)
+			(at 132.08 71.12 180)
 			(uuid "c83222b5-5658-4b3c-8c5a-bde9b6ddce71")
 			(effects
 				(font
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(pin "RB6_PIC2" input
-			(at 168.91 68.58 0)
+			(at 167.64 68.58 0)
 			(uuid "4e72c80d-04a7-4cd0-b871-f2bd56254e80")
 			(effects
 				(font
@@ -1154,7 +1154,7 @@
 			)
 		)
 		(pin "RB7_PIC1" input
-			(at 133.35 73.66 180)
+			(at 132.08 73.66 180)
 			(uuid "09c1c391-e25d-434d-b846-deee2a211bda")
 			(effects
 				(font
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(pin "RB7_PIC2" input
-			(at 168.91 73.66 0)
+			(at 167.64 73.66 0)
 			(uuid "f3fba3b6-4450-492e-8b91-3432161ee512")
 			(effects
 				(font

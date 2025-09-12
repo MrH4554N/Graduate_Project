@@ -3318,16 +3318,16 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:ZMM33_C8082")
-		(at 134.62 66.04 180)
+		(at 134.62 66.04 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "281bb914-a769-4975-9985-df5e1191fd6c")
 		(property "Reference" "D5"
-			(at 135.255 58.42 0)
+			(at 133.985 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Value" "ZMM36_C8082 35V"
-			(at 135.255 60.96 0)
+			(at 133.985 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,15 +5436,15 @@
 		(lib_name "TAJB335K035RNJ_1")
 		(lib_id "easyeda2kicad:TAJB335K035RNJ")
 		(at 160.02 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84752d8c-3542-45a3-b77b-a18cf4a872ba")
 		(property "Reference" "TU3"
-			(at 160.655 67.31 0)
+			(at 159.385 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5452,7 @@
 			)
 		)
 		(property "Value" "3.3uF 35V"
-			(at 160.655 69.85 0)
+			(at 159.385 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
