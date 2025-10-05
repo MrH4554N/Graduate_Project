@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7a97bb05-70e8-492c-a149-71a46bf2085e")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -513,290 +513,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L7805"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7805"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7805_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7805_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:L7815"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7815"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7815_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7815_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TAJB335K035RNJ_1"
 			(pin_names
 				(hide yes)
@@ -968,245 +684,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:EL357N(D)(TA)-G_C42385002"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EL357N(D)(TA)-G_C42385002"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOP-4_L3.9-W4.4-P2.54-LS7.0-TL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C42385002"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EL357N(D)(TA)-G_C42385002_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.33)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.56 0.76) (xy -1.52 0.76) (xy -2.54 -0.51) (xy -3.56 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.56 -0.51) (xy -1.52 -0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.78) (xy 2.54 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.51) (xy 3.81 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.76) (xy 4.06 -2.54) (xy 3.81 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.06 -2.54) (xy 3.3 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.06 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "AN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "CAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "COL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "EM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:FM4007"
 			(pin_names
 				(hide yes)
@@ -1322,6 +799,256 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:L7815CV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L7815CV"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L7815CV_L7815CV-Thin-fins_C5676.html"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5676"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L7815CV_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 3.81 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 3.81 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:LM7805T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805T"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_HGC-Huaguan-Semicon-LM7805T_C507145.html"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C507145"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7805T_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1664,6 +1391,281 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:TLP181GB-S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLP181GB-S"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOP-4_L3.7-W4.6-P2.54-LS7.0-TL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Youtai-Semiconductor-Co-Ltd-TLP181GB-S_C388374.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C388374"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP181GB-S_0_1"
+				(rectangle
+					(start -7.62 4.32)
+					(end 5.08 -4.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -4.32 2.54) (xy -4.32 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.84 1.27) (xy -4.32 -1.27) (xy -2.54 1.27) (xy -5.84 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 -0.25) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 -1.27) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.52 0.76) (xy 0.25 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -1.02 -1.02) (xy -1.52 -1.52) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.25 -1.02) (xy -0.25 0) (xy -0.76 -0.51) (xy 0.25 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.29) (xy 2.54 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.76) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.32 -1.27) (xy 3.56 -2.29) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "AN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "CAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "COL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "EMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2123,8 +2125,8 @@
 		)
 	)
 	(rectangle
-		(start 84.836 25.146)
-		(end 203.962 139.192)
+		(start 167.386 75.946)
+		(end 286.512 189.992)
 		(stroke
 			(width 0)
 			(type default)
@@ -2136,7 +2138,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 117.348 129.794 0)
+		(at 199.898 180.594 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -2145,164 +2147,164 @@
 		(uuid "60b901cd-c75d-4010-bcc4-739b4babb3a6")
 	)
 	(junction
-		(at 132.08 93.98)
+		(at 176.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00722a42-ba48-4056-b2ef-8fb7a7eb5181")
+	)
+	(junction
+		(at 212.09 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0689541b-4834-4037-aec5-d99da59df356")
 	)
 	(junction
-		(at 193.04 121.92)
+		(at 275.59 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0852e8a2-eae0-43e4-a8c8-67bf0d905e4e")
 	)
 	(junction
-		(at 93.98 54.61)
+		(at 212.09 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10eb04d7-2933-437b-801f-adf52c064b1e")
+		(uuid "1477684f-bd83-4fe2-bf60-62c838ecb3b5")
 	)
 	(junction
-		(at 99.06 82.55)
+		(at 252.73 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39a3aa5d-43c3-4ef5-989a-c13ad2530b4b")
+	)
+	(junction
+		(at 181.61 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462c4a8f-7e0f-450d-99d3-394cfc78cfd1")
 	)
 	(junction
-		(at 114.3 107.95)
+		(at 190.5 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5755d019-955c-4af9-911e-497e11452d9a")
 	)
 	(junction
-		(at 148.59 72.39)
+		(at 231.14 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67b92f0a-d17f-4f75-b0bb-3e6671bba02d")
 	)
 	(junction
-		(at 152.4 86.36)
+		(at 234.95 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6823904f-a130-4f2f-ab83-11e5e6dc5ea3")
 	)
 	(junction
-		(at 170.18 113.03)
+		(at 227.33 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ebfec59-7ac9-4b98-a082-ea8cb3f8327f")
+		(uuid "74a94cb6-323e-496a-ba70-3791d6012621")
 	)
 	(junction
-		(at 144.78 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "821f62a5-efd8-481c-8cf0-0f8a5dbd3874")
-	)
-	(junction
-		(at 100.33 43.18)
+		(at 182.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "886f9847-723d-42d5-a553-434770a5480f")
 	)
 	(junction
-		(at 160.02 62.23)
+		(at 242.57 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95858830-adab-4157-8d0b-6438c630be92")
 	)
 	(junction
-		(at 156.21 97.79)
+		(at 238.76 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa90650b-8ff3-4109-8150-f417439b8a54")
 	)
 	(junction
-		(at 124.46 107.95)
+		(at 204.47 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2c498de-81ef-4968-996e-6f878faf156f")
 	)
 	(junction
-		(at 132.08 41.91)
+		(at 214.63 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b533aa40-d1e1-4481-b6c4-ef0b666170b3")
 	)
 	(junction
-		(at 114.3 43.18)
+		(at 196.85 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c33df1-451c-44ae-9260-025c5f552529")
 	)
 	(junction
-		(at 148.59 66.04)
+		(at 231.14 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba515014-8dbf-4273-b8dd-308ab82f92a7")
 	)
 	(junction
-		(at 144.78 107.95)
+		(at 227.33 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf28d11-5012-4b2b-a947-90c27d4a64d8")
 	)
 	(junction
-		(at 170.18 85.09)
+		(at 252.73 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c36c738f-9844-4c64-9299-70e7cc3502e9")
 	)
 	(junction
-		(at 132.08 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7366de3-a7e3-47fa-9fe4-b68a69369b9d")
-	)
-	(junction
-		(at 162.56 62.23)
+		(at 245.11 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce96ab36-a88b-40dd-acfc-14d9498bb768")
 	)
 	(junction
-		(at 91.44 82.55)
+		(at 173.99 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2bae419-63a5-4f38-b910-1427297681ae")
 	)
 	(junction
-		(at 105.41 50.8)
+		(at 187.96 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1bcd04e-31cd-4979-90ed-6236a5fc586a")
 	)
 	(junction
-		(at 160.02 41.91)
+		(at 242.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9075ee1-14de-4b73-92b3-d9314b13404b")
 	)
 	(junction
-		(at 148.59 86.36)
+		(at 231.14 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e92bf243-08c8-4b6f-bb0e-b67e23eb1861")
 	)
 	(junction
-		(at 100.33 50.8)
+		(at 182.88 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eefead20-bf12-40fe-b12c-9d9219773f1b")
 	)
 	(junction
-		(at 93.98 43.18)
+		(at 176.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f87f8e-84d5-4e32-a32d-eb8989c21557")
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 170.18 90.17)
+			(xy 252.73 130.81) (xy 252.73 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 72.39) (xy 167.64 72.39)
+			(xy 246.38 123.19) (xy 250.19 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +2324,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 54.61) (xy 100.33 54.61)
+			(xy 252.73 161.29) (xy 252.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ef2097-7fc1-48ff-bbfd-bbd5c9312402")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 182.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 106.68 43.18)
+			(xy 182.88 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 33.02) (xy 132.08 41.91)
+			(xy 214.63 83.82) (xy 214.63 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 114.3 107.95)
+			(xy 190.5 149.86) (xy 190.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 152.4 97.79)
+			(xy 238.76 148.59) (xy 234.95 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2372,17 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 105.41) (xy 170.18 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10928008-e052-4f2d-b5d7-13c6baef007b")
-	)
-	(wire
-		(pts
-			(xy 165.1 62.23) (xy 162.56 62.23)
+			(xy 247.65 113.03) (xy 245.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 38.1) (xy 160.02 41.91)
+			(xy 242.57 88.9) (xy 242.57 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 129.54 35.56)
+			(xy 212.09 83.82) (xy 212.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 124.46 101.6)
+			(xy 204.47 165.1) (xy 204.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 124.46 109.22)
+			(xy 204.47 165.1) (xy 204.47 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 54.61) (xy 90.17 64.77)
+			(xy 172.72 105.41) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 106.68 50.8)
+			(xy 187.96 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 193.04 121.92)
+			(xy 271.78 172.72) (xy 275.59 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 41.91) (xy 149.86 41.91)
+			(xy 214.63 92.71) (xy 232.41 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 160.02 38.1)
+			(xy 217.17 88.9) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 157.48 41.91)
+			(xy 242.57 92.71) (xy 240.03 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 33.02) (xy 134.62 38.1)
+			(xy 217.17 83.82) (xy 217.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 81.28) (xy 148.59 86.36)
+			(xy 231.14 132.08) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2514,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 107.95) (xy 144.78 110.49)
+			(xy 176.53 128.27) (xy 176.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfdea44-3fea-4a28-a8df-e3e4b0db31cb")
+	)
+	(wire
+		(pts
+			(xy 227.33 168.91) (xy 227.33 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2522,17 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 132.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41201b2f-d146-4480-8177-78cee9ac7d7b")
-	)
-	(wire
-		(pts
-			(xy 152.4 97.79) (xy 152.4 93.98)
+			(xy 234.95 148.59) (xy 234.95 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 105.41 63.5)
+			(xy 187.96 115.57) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 113.03) (xy 170.18 121.92)
+			(xy 252.73 163.83) (xy 252.73 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2562,17 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce88891-7054-41c4-b9b5-7100e423d8d4")
-	)
-	(wire
-		(pts
-			(xy 90.17 54.61) (xy 93.98 54.61)
+			(xy 172.72 105.41) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 162.56 113.03)
+			(xy 240.03 163.83) (xy 243.84 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 156.21 97.79)
+			(xy 242.57 148.59) (xy 238.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 152.4 86.36)
+			(xy 231.14 137.16) (xy 234.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2604,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 160.02 66.04)
+			(xy 204.47 137.16) (xy 212.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789d63d1-ca36-4735-9728-fd724bf554cf")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 242.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 160.02 62.23)
+			(xy 245.11 113.03) (xy 242.57 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 127 33.02)
+			(xy 176.53 83.82) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 91.44 78.74)
+			(xy 176.53 129.54) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2652,27 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838e542c-dc66-4267-990f-7258d97b7b0e")
-	)
-	(wire
-		(pts
-			(xy 99.06 74.93) (xy 99.06 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84cc7c99-7b18-4778-9b6b-87590fa3b556")
-	)
-	(wire
-		(pts
-			(xy 148.59 73.66) (xy 148.59 72.39)
+			(xy 231.14 124.46) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 101.6 82.55)
+			(xy 181.61 133.35) (xy 184.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2692,17 +2674,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 148.59 86.36)
+			(xy 176.53 93.98) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b0d21cd-7f3d-402f-81c9-0f3b74d7d718")
+		(uuid "851933d6-bdc2-423f-bed8-c32a83388e94")
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 160.02 66.04)
+			(xy 242.57 113.03) (xy 242.57 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 93.98 43.18)
+			(xy 182.88 93.98) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 137.16 93.98)
+			(xy 212.09 149.86) (xy 217.17 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 105.41 50.8)
+			(xy 182.88 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 35.56) (xy 114.3 43.18)
+			(xy 196.85 86.36) (xy 196.85 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 91.44 82.55)
+			(xy 173.99 129.54) (xy 173.99 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 115.57 107.95)
+			(xy 190.5 165.1) (xy 191.77 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 101.6) (xy 144.78 107.95)
+			(xy 227.33 162.56) (xy 227.33 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 82.55) (xy 91.44 82.55)
+			(xy 171.45 133.35) (xy 173.99 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 170.18 85.09)
+			(xy 234.95 130.81) (xy 252.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 116.84 93.98)
+			(xy 190.5 149.86) (xy 194.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2794,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 50.8)
+			(xy 212.09 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3686ba-8ea4-4273-8417-2ca01e834fdc")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 196.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2822,17 +2814,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 144.78 86.36)
+			(xy 227.33 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b32d8e49-1b6d-46a0-9772-ebeaecbb005b")
+		(uuid "b168fbce-3eb7-45a5-be45-8aeff72c2997")
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 156.21 72.39)
+			(xy 231.14 123.19) (xy 238.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 59.69) (xy 160.02 62.23)
+			(xy 242.57 110.49) (xy 242.57 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 121.92) (xy 193.04 121.92)
+			(xy 278.13 172.72) (xy 275.59 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 93.98 43.18)
+			(xy 176.53 83.82) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 148.59 72.39)
+			(xy 231.14 116.84) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 129.54 66.04)
+			(xy 205.74 116.84) (xy 212.09 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 105.41 64.77)
+			(xy 172.72 115.57) (xy 187.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 88.9 82.55)
+			(xy 171.45 134.62) (xy 171.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2904,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 123.19 66.04)
+			(xy 252.73 163.83) (xy 251.46 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8aadd1c-9a6c-4abe-a220-eb96b9691569")
+	)
+	(wire
+		(pts
+			(xy 205.74 120.65) (xy 205.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2924,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 105.41 55.88)
+			(xy 212.09 142.24) (xy 212.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e014a3b7-8ef1-488c-9b86-99980efd5b1a")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 121.92) (xy 172.72 121.92)
+			(xy 252.73 172.72) (xy 255.27 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 160.02 49.53)
+			(xy 242.57 92.71) (xy 242.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2952,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 124.46 107.95)
+			(xy 199.39 165.1) (xy 204.47 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2962,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 121.92) (xy 181.61 121.92)
+			(xy 262.89 172.72) (xy 264.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 148.59 66.04)
+			(xy 222.25 116.84) (xy 231.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 180.34 85.09)
+			(xy 252.73 130.81) (xy 262.89 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +3004,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 100.33 54.61)
+			(xy 181.61 128.27) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f8128a-d446-4ab0-9010-e75191cc1e26")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 182.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3002,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 152.4 86.36)
+			(xy 234.95 130.81) (xy 234.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 35.56) (xy 114.3 35.56)
+			(xy 212.09 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3044,7 @@
 	)
 	(hierarchical_label "5V_PIC1"
 		(shape output)
-		(at 124.46 109.22 270)
+		(at 204.47 166.37 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,7 +3055,7 @@
 	)
 	(hierarchical_label "5V_PIC2"
 		(shape output)
-		(at 144.78 110.49 270)
+		(at 227.33 171.45 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3044,7 +3066,7 @@
 	)
 	(hierarchical_label "RA4_T0CKI"
 		(shape output)
-		(at 101.6 82.55 0)
+		(at 184.15 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3055,7 +3077,7 @@
 	)
 	(hierarchical_label "14.5V"
 		(shape output)
-		(at 195.58 121.92 0)
+		(at 278.13 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3066,7 +3088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 129.54 0)
+		(at 275.59 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3074,7 +3096,7 @@
 		(dnp no)
 		(uuid "18e1d67f-5066-4d79-a1fe-4eceeeaa97df")
 		(property "Reference" "#PWR017"
-			(at 193.04 135.89 0)
+			(at 275.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 133.858 0)
+			(at 275.59 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 129.54 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 129.54 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 129.54 0)
+			(at 275.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3153,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 59.69 0)
+		(at 187.96 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3140,7 +3162,7 @@
 		(dnp no)
 		(uuid "1e789768-ec96-477f-ae0f-f19a4e48aa2a")
 		(property "Reference" "R6"
-			(at 107.442 60.96 90)
+			(at 189.992 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3171,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 105.41 61.976 90)
+			(at 187.96 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3180,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.188 59.69 90)
+			(at 189.738 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 59.69 0)
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,8 +3197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 59.69 0)
+		(property "Description" "Resistor 33k 0805"
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3207,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3216,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3225,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3234,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3243,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3252,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3261,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3270,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3279,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3288,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3297,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3306,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3315,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 105.41 59.69 90)
+			(at 187.96 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-33-kohm-0805-1-"
+			(at 187.96 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 187.96 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 187.96 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,8 +3366,116 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:LM7805T")
+		(at 201.93 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "231ac091-19c4-4a36-863c-13d21bc6f2ce")
+		(property "Reference" "U1"
+			(at 194.818 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM7805T"
+			(at 194.818 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_HGC-Huaguan-Semicon-LM7805T_C507145.html"
+			(at 184.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Regulator 5V LM7805T"
+			(at 201.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C507145"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/lm7805t-ic-on-ap-5v-1-5a-to-220-3"
+			(at 201.93 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 201.93 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 201.93 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cea66ac-c110-4897-ac56-0c58844d9750")
+		)
+		(pin "2"
+			(uuid "fc483079-fc2f-407a-9d2a-a6a73f8cb51d")
+		)
+		(pin "3"
+			(uuid "5924c636-6705-43ee-a9ea-ccc05cafdf16")
+		)
+		(instances
+			(project ""
+				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:ZMM33_C8082")
-		(at 134.62 66.04 0)
+		(at 217.17 116.84 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3327,7 +3484,7 @@
 		(dnp no)
 		(uuid "281bb914-a769-4975-9985-df5e1191fd6c")
 		(property "Reference" "D5"
-			(at 133.985 58.42 0)
+			(at 216.535 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3492,7 @@
 			)
 		)
 		(property "Value" "ZMM36_C8082 35V"
-			(at 133.985 60.96 0)
+			(at 216.535 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3500,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LL-34_L3.5-W1.5-RD"
-			(at 134.62 58.42 0)
+			(at 217.17 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3509,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_ZMM33_C8082.html"
-			(at 134.62 55.88 0)
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,8 +3517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 66.04 0)
+		(property "Description" "Diode ZMM36 35V"
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3527,7 @@
 			)
 		)
 		(property "LCSC Part" "C8082"
-			(at 134.62 53.34 0)
+			(at 217.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3536,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3545,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3554,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3563,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3572,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3581,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3590,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3599,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3608,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3617,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3626,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3635,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 134.62 66.04 0)
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/zmm36-diode-zener-36v-500mw-sod-80"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 217.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3687,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 82.55 270)
+		(at 177.8 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3511,7 +3695,7 @@
 		(dnp no)
 		(uuid "2b87f100-c3ad-47fa-880e-bff1cf474212")
 		(property "Reference" "C1"
-			(at 95.25 78.994 90)
+			(at 177.8 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3703,7 @@
 			)
 		)
 		(property "Value" "50V 10nF"
-			(at 96.52 86.36 90)
+			(at 179.07 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3711,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.44 83.5152 0)
+			(at 173.99 134.3152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 82.55 0)
+			(at 177.8 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,8 +3728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 82.55 0)
+		(property "Description" "Capacitor 50V 10nF 0805"
+			(at 177.8 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3738,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3747,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3756,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3765,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3774,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3783,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3792,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3801,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3810,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3819,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3828,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3837,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3846,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 95.25 82.55 90)
+			(at 177.8 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-10nf-50v"
+			(at 177.8 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 177.8 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 177.8 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 121.92 90)
+		(at 259.08 172.72 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3696,7 +3907,7 @@
 		(dnp no)
 		(uuid "31967421-50a8-42de-93ca-c3b68b965570")
 		(property "Reference" "R9"
-			(at 177.8 119.888 90)
+			(at 260.35 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3916,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 178.816 121.92 90)
+			(at 261.366 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 176.53 120.142 90)
+			(at 259.08 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 121.92 0)
+			(at 259.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,8 +3942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 176.53 121.92 0)
+		(property "Description" "Resistor 1k 0805"
+			(at 259.08 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3952,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3961,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3970,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3979,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3988,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3997,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +4006,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +4015,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4024,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +4033,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +4042,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +4051,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4060,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 176.53 121.92 90)
+			(at 259.08 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-1-kohm-0805-1-"
+			(at 259.08 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 259.08 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 259.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 43.18 270)
+		(at 193.04 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3882,15 +4120,15 @@
 		(dnp no)
 		(uuid "33b0a75e-adab-455f-884f-b1687b91ca14")
 		(property "Reference" "C3"
-			(at 110.49 39.624 90)
+			(at 193.04 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50V 68nF ceramic"
-			(at 111.76 46.99 90)
+		(property "Value" "50V 68nF"
+			(at 194.31 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +4136,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 106.68 44.1452 0)
+			(at 189.23 94.9452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +4145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 43.18 0)
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,8 +4153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 43.18 0)
+		(property "Description" "Capacitor 50V 68nF 0805"
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4163,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4172,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4181,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4190,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4199,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4208,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4217,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4226,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4235,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4244,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4253,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4262,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4271,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 110.49 43.18 90)
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-68nf-50v"
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 193.04 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4323,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 41.91 270)
+		(at 236.22 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,15 +4331,15 @@
 		(dnp no)
 		(uuid "39f8ebff-6fdd-4823-b9b9-3317249cb0dd")
 		(property "Reference" "C6"
-			(at 153.67 38.354 90)
+			(at 236.22 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50V 10nF ceramic"
-			(at 154.94 45.72 90)
+		(property "Value" "50V 10nF"
+			(at 237.49 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4347,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 149.86 42.8752 0)
+			(at 232.41 93.6752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 41.91 0)
+			(at 236.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,8 +4364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 41.91 0)
+		(property "Description" "Capacitor 50V 10nF 1206"
+			(at 236.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4374,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4383,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4392,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4401,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4410,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4419,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4428,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4437,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4446,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4455,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4464,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4473,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4482,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 153.67 41.91 90)
+			(at 236.22 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-1206-10nf-50v"
+			(at 236.22 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 236.22 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 236.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4534,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 90.17 0)
+		(at 234.95 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4250,7 +4542,7 @@
 		(dnp no)
 		(uuid "40e853e3-36f7-40f1-a597-9670f577ccd7")
 		(property "Reference" "C5"
-			(at 149.098 90.17 90)
+			(at 231.648 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4550,7 @@
 			)
 		)
 		(property "Value" "50V 1.5nF"
-			(at 155.448 90.17 90)
+			(at 237.998 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4558,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 153.3652 93.98 0)
+			(at 235.9152 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 90.17 0)
+			(at 234.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,8 +4575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 152.4 90.17 0)
+		(property "Description" "Capacitor 50V 1.5nF 0805"
+			(at 234.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4585,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4594,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4603,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4612,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4621,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4630,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4639,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4648,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4657,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4666,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4675,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4684,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4693,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 152.4 90.17 90)
+			(at 234.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-1-5nf-50v"
+			(at 234.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 234.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 234.95 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4745,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 162.56 62.23 0)
+		(at 245.11 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4435,7 +4754,7 @@
 		(fields_autoplaced yes)
 		(uuid "412e40ab-fabd-4079-9fa1-fd589027ec47")
 		(property "Reference" "#FLG01"
-			(at 162.56 60.325 0)
+			(at 245.11 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4763,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 162.56 57.15 0)
+			(at 245.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 62.23 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 62.23 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4790,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 162.56 62.23 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 72.39 0)
+		(at 250.19 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4501,7 +4820,7 @@
 		(dnp no)
 		(uuid "47e3d5fa-da82-47bc-92a9-2fa1bdb37f66")
 		(property "Reference" "#PWR015"
-			(at 167.64 78.74 0)
+			(at 250.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 76.708 0)
+			(at 250.19 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 72.39 0)
+			(at 250.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 72.39 0)
+			(at 250.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 72.39 0)
+			(at 250.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,8 +4876,116 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:LM7805T")
+		(at 224.79 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba652f7-56bd-4c05-ada0-c82ca2083e13")
+		(property "Reference" "U3"
+			(at 217.17 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM7805T"
+			(at 217.17 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_HGC-Huaguan-Semicon-LM7805T_C507145.html"
+			(at 207.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Regulator 5V LM7805T"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C507145"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/lm7805t-ic-on-ap-5v-1-5a-to-220-3"
+			(at 224.79 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 224.79 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 224.79 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9ad73c4-f697-4923-818e-11ce2250d22f")
+		)
+		(pin "2"
+			(uuid "93bbbb45-767d-4e7c-87ac-eb2086c433b9")
+		)
+		(pin "3"
+			(uuid "558414fa-0d8c-4b27-8816-663779b084d4")
+		)
+		(instances
+			(project "GraduateProject"
+				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 132.08 93.98 0)
+		(at 212.09 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4566,7 +4993,7 @@
 		(dnp no)
 		(uuid "4dea9921-6405-4b1c-8176-755dc140e6de")
 		(property "Reference" "#PWR010"
-			(at 132.08 100.33 0)
+			(at 212.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +5002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 98.298 0)
+			(at 212.09 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +5010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 93.98 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +5019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 93.98 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 93.98 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 107.95 270)
+		(at 219.71 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +5058,7 @@
 		(dnp no)
 		(uuid "5b0f9190-55b6-44bf-8bdf-67b59b5c7b2c")
 		(property "Reference" "#PWR011"
-			(at 130.81 107.95 0)
+			(at 213.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +5067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.842 107.95 0)
+			(at 215.392 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 107.95 0)
+			(at 219.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 107.95 0)
+			(at 219.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 107.95 0)
+			(at 219.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,17 +5114,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L7815")
-		(at 170.18 97.79 270)
+		(lib_id "easyeda2kicad:L7815CV")
+		(at 248.92 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63a42936-895a-4e3c-b5b3-1576b23158be")
-		(property "Reference" "U2"
-			(at 173.99 96.5199 90)
+		(uuid "63d76a45-110f-4a8f-bf18-2d06161235e2")
+		(property "Reference" "U4"
+			(at 256.54 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,8 +5132,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L7815"
-			(at 173.99 99.0599 90)
+		(property "Value" "L7815CV"
+			(at 256.54 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,19 +5141,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 166.37 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 168.91 97.79 0)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,8 +5150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252"
-			(at 170.18 97.79 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L7815CV_L7815CV-Thin-fins_C5676.html"
+			(at 232.41 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,8 +5159,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence" ""
-			(at 170.18 97.79 90)
+		(property "Description" "Regulator 15V L7815CV"
+			(at 248.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,8 +5168,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 170.18 97.79 90)
+		(property "LCSC Part" "C5676"
+			(at 229.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,8 +5177,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 170.18 97.79 90)
+		(property "Buying link" "https://www.thegioiic.com/l7815cv-ic-on-ap-15v-1-5a"
+			(at 248.92 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,8 +5186,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 170.18 97.79 90)
+		(property "Main Version" ""
+			(at 248.92 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,91 +5195,28 @@
 				(hide yes)
 			)
 		)
-		(property "JCLPCB" ""
-			(at 170.18 97.79 90)
+		(property "Split Transistor Version" ""
+			(at 248.92 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MfgNo" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen JLCPCB" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@1" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@reel" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@1" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@reel" ""
-			(at 170.18 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1dc93b0e-ae19-43d5-a330-db1e8a4c4b98")
-		)
-		(pin "1"
-			(uuid "775c1133-d1f3-48d8-ac5f-99c16c3ec805")
 		)
 		(pin "3"
-			(uuid "4c7bdd8f-b8bb-4fdc-adc9-287840700cc9")
+			(uuid "5344c41a-f8d6-47bd-a03a-d92a40e22a71")
+		)
+		(pin "1"
+			(uuid "f2a0b09b-4873-4c22-9a22-666f26487e82")
+		)
+		(pin "2"
+			(uuid "319dd941-f26d-4bc1-b49e-149e299345a0")
 		)
 		(instances
 			(project ""
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4871,7 +5224,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 90.17 0)
+		(at 212.09 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4879,7 +5232,7 @@
 		(dnp no)
 		(uuid "74c10eb4-d769-4095-904a-7dd35520f6d6")
 		(property "Reference" "C4"
-			(at 128.778 90.17 90)
+			(at 208.788 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5240,7 @@
 			)
 		)
 		(property "Value" "50V 1.5nF"
-			(at 135.128 90.17 90)
+			(at 215.138 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +5248,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 133.0452 93.98 0)
+			(at 213.0552 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 90.17 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,8 +5265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 90.17 0)
+		(property "Description" "Capacitor 50V 1.5nF 0805"
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5275,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +5284,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +5293,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +5302,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +5311,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5320,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +5329,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5338,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5347,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5356,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5365,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5374,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5383,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 132.08 90.17 90)
+			(at 212.09 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-1-5nf-50v"
+			(at 212.09 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 212.09 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 212.09 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 88.9 0)
+		(at 262.89 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5063,7 +5443,7 @@
 		(dnp no)
 		(uuid "74e84c99-9595-4fa5-a6a5-5f8abbe43f4a")
 		(property "Reference" "C7"
-			(at 177.038 88.9 90)
+			(at 259.588 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5451,7 @@
 			)
 		)
 		(property "Value" "50V 1.5nF"
-			(at 183.388 88.9 90)
+			(at 265.938 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5459,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 181.3052 92.71 0)
+			(at 263.8552 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 88.9 0)
+			(at 262.89 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,8 +5476,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 180.34 88.9 0)
+		(property "Description" "Capacitor 50V 1.5nF 0805"
+			(at 262.89 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5486,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5495,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5504,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5513,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5522,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5531,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5540,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5549,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +5558,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5567,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5576,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5585,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5594,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 180.34 88.9 90)
+			(at 262.89 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-1-5nf-50v"
+			(at 262.89 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 262.89 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 262.89 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 41.91 0)
+		(at 214.63 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5247,7 +5654,7 @@
 		(dnp no)
 		(uuid "7725c3fa-3e67-4663-b781-085987fe425e")
 		(property "Reference" "#PWR09"
-			(at 132.08 48.26 0)
+			(at 214.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 46.228 0)
+			(at 214.63 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 41.91 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 41.91 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 41.91 0)
+			(at 214.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5711,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 83.82 0)
+		(at 171.45 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5312,7 +5719,7 @@
 		(dnp no)
 		(uuid "7bf71f8d-26a5-4e6b-bd01-3299d386cbc9")
 		(property "Reference" "#PWR06"
-			(at 88.9 90.17 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 88.138 0)
+			(at 171.45 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 83.82 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 83.82 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 83.82 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 107.95 270)
+		(at 190.5 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5377,7 +5784,7 @@
 		(dnp no)
 		(uuid "838b8591-1a8d-49ff-ac8a-77718d956ca2")
 		(property "Reference" "#PWR07"
-			(at 107.95 107.95 0)
+			(at 184.15 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.982 107.95 0)
+			(at 186.182 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 107.95 0)
+			(at 190.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 107.95 0)
+			(at 190.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 107.95 0)
+			(at 190.5 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5842,7 @@
 	(symbol
 		(lib_name "TAJB335K035RNJ_1")
 		(lib_id "easyeda2kicad:TAJB335K035RNJ")
-		(at 160.02 72.39 0)
+		(at 242.57 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5444,7 +5851,7 @@
 		(dnp no)
 		(uuid "84752d8c-3542-45a3-b77b-a18cf4a872ba")
 		(property "Reference" "TU3"
-			(at 159.385 67.31 0)
+			(at 241.935 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5859,7 @@
 			)
 		)
 		(property "Value" "3.3uF 35V"
-			(at 159.385 69.85 0)
+			(at 241.935 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5867,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD"
-			(at 160.02 80.01 0)
+			(at 242.57 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB335K035RNJ_3-3uF-335-10-35V_C7201.html"
-			(at 160.02 82.55 0)
+			(at 242.57 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,8 +5884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 72.39 0)
+		(property "Description" "Capacitor tantalum 3.3uF 35V"
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5894,7 @@
 			)
 		)
 		(property "LCSC Part" "C7201"
-			(at 160.02 85.09 0)
+			(at 242.57 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5903,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5912,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5921,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5930,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5939,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5948,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5957,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5966,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5975,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5984,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5993,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +6002,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +6011,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 160.02 72.39 0)
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" ""
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 242.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,43 +6062,35 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:EL357N(D)(TA)-G_C42385002")
-		(at 96.52 64.77 270)
+		(lib_id "easyeda2kicad:TLP181GB-S")
+		(at 179.07 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "870bb81d-4179-43f3-898c-b9ef359cebc3")
-		(property "Reference" "U6"
-			(at 85.852 72.644 0)
+		(fields_autoplaced yes)
+		(uuid "90758e5e-f272-4b89-a5da-6c544888322f")
+		(property "Reference" "U2"
+			(at 184.15 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "EL357N(D)(TA)-G_C42385002"
-			(at 88.392 72.644 0)
+		(property "Value" "TLP181GB-S"
+			(at 184.15 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOP-4_L3.9-W4.4-P2.54-LS7.0-TL"
-			(at 86.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 64.77 0)
+		(property "Footprint" "easyeda2kicad:SOP-4_L3.7-W4.6-P2.54-LS7.0-TL"
+			(at 168.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,8 +6098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 64.77 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Youtai-Semiconductor-Co-Ltd-TLP181GB-S_C388374.html"
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,8 +6107,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C42385002"
-			(at 83.82 64.77 0)
+		(property "Description" "Optoisolator TLP181GB-S"
+			(at 179.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,8 +6116,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence" ""
-			(at 96.52 64.77 0)
+		(property "LCSC Part" "C388374"
+			(at 163.83 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,8 +6125,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 96.52 64.77 0)
+		(property "Buying link" ""
+			(at 179.07 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,8 +6134,8 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 96.52 64.77 0)
+		(property "Main Version" ""
+			(at 179.07 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,103 +6143,31 @@
 				(hide yes)
 			)
 		)
-		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 96.52 64.77 0)
+		(property "Split Transistor Version" ""
+			(at 179.07 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "JCLPCB" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgNo" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen JLCPCB" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@1" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@reel" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@1" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@reel" ""
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "094816cb-ee34-4ae0-b2b9-d43b3b2e34bb")
-		)
-		(pin "3"
-			(uuid "77fb725f-ab7a-44ce-bbd6-9dad32d494a7")
-		)
-		(pin "1"
-			(uuid "dab2d2bb-f814-41ef-8e90-067f5d740b53")
 		)
 		(pin "4"
-			(uuid "4f04e753-1f7f-4c3d-9215-fcc61e5017a5")
+			(uuid "5ee410c6-9780-433f-b395-00c01cd2d093")
+		)
+		(pin "3"
+			(uuid "0b586e67-2cdb-4722-adc8-079be5922ba8")
+		)
+		(pin "6"
+			(uuid "aeaa86ef-2a12-404d-85e3-07586401799e")
+		)
+		(pin "1"
+			(uuid "3e320e75-de17-4850-9a2a-057bf11d16aa")
 		)
 		(instances
 			(project ""
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5821,7 +6175,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 77.47 0)
+		(at 231.14 128.27 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5830,7 +6184,7 @@
 		(dnp no)
 		(uuid "9eada384-0abf-4ecf-ba04-89bc6aa543c2")
 		(property "Reference" "R8"
-			(at 146.558 76.2 90)
+			(at 229.108 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +6193,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 148.59 75.184 90)
+			(at 231.14 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +6202,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 146.812 77.47 90)
+			(at 229.362 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 77.47 0)
+			(at 231.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,8 +6219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 148.59 77.47 0)
+		(property "Description" "Resistor 10R 0805"
+			(at 231.14 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +6229,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +6238,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +6247,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6256,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6265,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6274,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6283,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +6292,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +6301,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +6310,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +6319,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +6328,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6337,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 148.59 77.47 90)
+			(at 231.14 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-10-ohm-0805-1-"
+			(at 231.14 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 231.14 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 231.14 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6389,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:FM4007")
-		(at 160.02 54.61 90)
+		(at 242.57 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6017,7 +6398,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb89c37-3269-4c9f-82f7-f1d6cc244257")
 		(property "Reference" "D4"
-			(at 162.56 53.3399 90)
+			(at 245.11 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6407,7 @@
 			)
 		)
 		(property "Value" "FM4007"
-			(at 162.56 55.8799 90)
+			(at 245.11 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6416,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD"
-			(at 167.64 54.61 0)
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6425,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_LGE-FM4007_C402244.html"
-			(at 170.18 54.61 0)
+			(at 252.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,8 +6433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 54.61 0)
+		(property "Description" "Diode FM4007"
+			(at 242.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6443,7 @@
 			)
 		)
 		(property "LCSC Part" "C402244"
-			(at 172.72 54.61 0)
+			(at 255.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6452,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6461,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6470,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6479,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6488,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6497,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6506,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6515,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6524,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6533,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6542,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6551,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6560,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 160.02 54.61 90)
+			(at 242.57 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" ""
+			(at 242.57 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 242.57 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 69.85 0)
+		(at 205.74 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6212,7 +6620,7 @@
 		(dnp no)
 		(uuid "9fd50e67-11ff-484a-b95f-585b3fe72867")
 		(property "Reference" "#PWR08"
-			(at 123.19 76.2 0)
+			(at 205.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 74.168 0)
+			(at 205.74 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 69.85 0)
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 69.85 0)
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 69.85 0)
+			(at 205.74 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6677,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TAJA106K016RNJ")
-		(at 140.97 107.95 0)
+		(at 223.52 168.91 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6278,7 +6686,7 @@
 		(dnp no)
 		(uuid "a4646c66-708c-47a2-ac46-00072c6dfb33")
 		(property "Reference" "TU2"
-			(at 138.43 114.046 0)
+			(at 220.98 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6694,7 @@
 			)
 		)
 		(property "Value" "10uF 16V"
-			(at 138.43 111.506 0)
+			(at 220.98 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6702,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.2-W1.6-RD-C7171"
-			(at 140.97 100.33 0)
+			(at 223.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6711,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJA106K016RNJ_10uF-106-10-16V_C7171.html"
-			(at 140.97 97.79 0)
+			(at 223.52 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,8 +6719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 107.95 0)
+		(property "Description" "Capacitor tantalum 10uF 16V"
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6729,7 @@
 			)
 		)
 		(property "LCSC Part" "C7171"
-			(at 140.97 95.25 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6738,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6747,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6756,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6765,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6774,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6783,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6792,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6801,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6810,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6819,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6828,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6837,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6846,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 140.97 107.95 0)
+			(at 223.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-tantalum-10uf-16v-2312-tajc106k016rnj"
+			(at 223.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 223.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 223.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 121.92 270)
+		(at 267.97 172.72 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6472,7 +6907,7 @@
 		(dnp no)
 		(uuid "abb591b9-e84f-4f88-9283-5f2ec68a3da4")
 		(property "Reference" "R10"
-			(at 184.15 123.952 90)
+			(at 266.7 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6916,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 183.134 121.92 90)
+			(at 265.684 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 185.42 123.698 90)
+			(at 267.97 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 121.92 0)
+			(at 267.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,8 +6942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 185.42 121.92 0)
+		(property "Description" "Resistor 100R 0805"
+			(at 267.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6952,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6961,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6970,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6979,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6988,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +6997,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +7006,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +7015,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +7024,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +7033,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +7042,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +7051,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +7060,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 185.42 121.92 90)
+			(at 267.97 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-100-ohm-0805-1-"
+			(at 267.97 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 267.97 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 267.97 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +7112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 46.99 0)
+		(at 182.88 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6658,7 +7120,7 @@
 		(dnp no)
 		(uuid "af2cd365-76f0-4e0c-af52-311f0092e513")
 		(property "Reference" "C2"
-			(at 93.472 46.99 90)
+			(at 176.022 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +7128,7 @@
 			)
 		)
 		(property "Value" "50V 1.5nF"
-			(at 96.52 46.736 90)
+			(at 179.07 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +7136,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.2952 50.8 0)
+			(at 183.8452 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +7145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 46.99 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,8 +7153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 46.99 0)
+		(property "Description" "Capacitor 50V 1.5nF 0805"
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +7163,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +7172,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +7181,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +7190,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +7199,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,7 +7208,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +7217,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +7226,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +7235,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +7244,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6791,7 +7253,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +7262,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +7271,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 100.33 46.99 90)
+			(at 182.88 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-gom-0805-1-5nf-50v"
+			(at 182.88 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 182.88 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 182.88 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +7323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 50.8 270)
+		(at 193.04 101.6 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6843,7 +7332,7 @@
 		(dnp no)
 		(uuid "b00bbf2d-fda7-4c28-a734-abc1ff55f48d")
 		(property "Reference" "R7"
-			(at 109.22 52.832 90)
+			(at 191.77 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7341,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 108.204 50.8 90)
+			(at 190.754 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7350,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 110.49 52.578 90)
+			(at 193.04 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +7359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 50.8 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,8 +7367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 110.49 50.8 0)
+		(property "Description" "Resistor 3.3k 0805"
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +7377,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +7386,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +7395,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +7404,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +7413,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7422,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7431,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7440,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7449,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7458,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7467,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +7476,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7485,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 110.49 50.8 90)
+			(at 193.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-3-3-kohm-0805-1-"
+			(at 193.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 193.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 193.04 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7537,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TAJA106K016RNJ")
-		(at 119.38 107.95 0)
+		(at 195.58 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7029,7 +7545,7 @@
 		(dnp no)
 		(uuid "c235e0f4-247e-4520-bcc2-cf10547d7ae7")
 		(property "Reference" "TU1"
-			(at 119.126 111.506 0)
+			(at 195.326 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7553,7 @@
 			)
 		)
 		(property "Value" "10uF 16V"
-			(at 119.126 114.046 0)
+			(at 195.326 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7561,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.2-W1.6-RD-C7171"
-			(at 119.38 115.57 0)
+			(at 195.58 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7570,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJA106K016RNJ_10uF-106-10-16V_C7171.html"
-			(at 119.38 118.11 0)
+			(at 195.58 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,8 +7578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 107.95 0)
+		(property "Description" "Capacitor tantalum 10uF 16V"
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7588,7 @@
 			)
 		)
 		(property "LCSC Part" "C7171"
-			(at 119.38 120.65 0)
+			(at 195.58 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7597,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7606,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7615,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7624,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7633,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7642,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7651,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7660,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,7 +7669,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7678,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7687,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7696,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7705,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 119.38 107.95 0)
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/tu-tantalum-10uf-16v-2312-tajc106k016rnj"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 195.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7757,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 132.08 27.94 270)
+		(at 214.63 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7223,7 +7766,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9a194cd-9a09-4394-b780-19e4928e046c")
 		(property "Reference" "J2"
-			(at 130.81 24.13 90)
+			(at 213.36 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7774,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 130.81 26.67 90)
+			(at 213.36 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7782,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 132.08 27.94 0)
+			(at 214.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 27.94 0)
+			(at 214.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7800,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 132.08 27.94 0)
+			(at 214.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7809,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7818,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7827,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7836,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7845,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7854,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7863,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7872,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7881,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7890,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7899,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7908,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7917,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 132.08 27.94 90)
+			(at 214.63 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" ""
+			(at 214.63 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 214.63 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7975,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 125.73 0)
+		(at 275.59 176.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7414,7 +7984,7 @@
 		(dnp no)
 		(uuid "cdf41b3c-4ab5-40b5-b569-849e06c0b5b5")
 		(property "Reference" "R11"
-			(at 195.072 127 90)
+			(at 277.622 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7993,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 193.04 128.016 90)
+			(at 275.59 178.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +8002,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 194.818 125.73 90)
+			(at 277.368 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 125.73 0)
+			(at 275.59 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,8 +8019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 193.04 125.73 0)
+		(property "Description" "Resistor 33k 0805"
+			(at 275.59 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +8029,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +8038,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +8047,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +8056,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +8065,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +8074,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +8083,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +8092,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +8101,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +8110,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +8119,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +8128,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +8137,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 193.04 125.73 90)
+			(at 275.59 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" "https://www.thegioiic.com/dien-tro-33-kohm-0805-1-"
+			(at 275.59 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 275.59 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 275.59 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +8189,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TAJB225K035RNJ")
-		(at 166.37 113.03 0)
+		(at 247.65 163.83 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7601,7 +8198,7 @@
 		(dnp no)
 		(uuid "d626e38d-1284-4cb5-9337-537a343e5b1d")
 		(property "Reference" "TU4"
-			(at 167.005 119.38 0)
+			(at 248.285 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +8206,7 @@
 			)
 		)
 		(property "Value" "2.2uF 35V"
-			(at 167.005 116.84 0)
+			(at 248.285 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +8214,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD"
-			(at 166.37 105.41 0)
+			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +8223,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB225K035RNJ-RHOS_2-2uF-225-10-35V_C19276.html"
-			(at 166.37 102.87 0)
+			(at 247.65 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,8 +8231,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 113.03 0)
+		(property "Description" "Capacitor tantalum 2.2uF 35V"
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +8241,7 @@
 			)
 		)
 		(property "LCSC Part" "C19276"
-			(at 166.37 100.33 0)
+			(at 247.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +8250,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +8259,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +8268,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +8277,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +8286,7 @@
 			)
 		)
 		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +8295,7 @@
 			)
 		)
 		(property "JCLPCB" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +8304,7 @@
 			)
 		)
 		(property "MfgNo" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +8313,7 @@
 			)
 		)
 		(property "basicEquivalen" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +8322,7 @@
 			)
 		)
 		(property "basicEquivalen JLCPCB" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +8331,7 @@
 			)
 		)
 		(property "basicEquivalence price@1" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +8340,7 @@
 			)
 		)
 		(property "basicEquivalence price@reel" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,7 +8349,7 @@
 			)
 		)
 		(property "price@1" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +8358,34 @@
 			)
 		)
 		(property "price@reel" ""
-			(at 166.37 113.03 0)
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buying link" ""
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Main Version" ""
+			(at 247.65 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Split Transistor Version" ""
+			(at 247.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +8410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 97.79 0)
+		(at 238.76 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7794,7 +8418,7 @@
 		(dnp no)
 		(uuid "d69ccc33-bb1d-4173-b5cb-53ed2d63342b")
 		(property "Reference" "#PWR012"
-			(at 156.21 104.14 0)
+			(at 238.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 102.108 0)
+			(at 238.76 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +8435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 97.79 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 97.79 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 97.79 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,190 +8474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 124.46 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7569c7a-95d4-42c8-8af8-4cac9551b9e4")
-		(property "Reference" "U3"
-			(at 110.744 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L7805"
-			(at 110.744 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 120.65 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCLPCB" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgNo" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen JLCPCB" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@1" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@reel" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@1" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@reel" ""
-			(at 124.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e63c6f02-4811-44a8-9e38-0c2e4f2fa5f8")
-		)
-		(pin "2"
-			(uuid "f25d4395-95c5-4a92-b647-07ddfc59f9df")
-		)
-		(pin "3"
-			(uuid "db93651b-fcec-4a44-9856-3524edb0583a")
-		)
-		(instances
-			(project ""
-				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 157.48 113.03 0)
+		(at 240.03 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8041,7 +8483,7 @@
 		(dnp no)
 		(uuid "eac01dd5-e00b-4007-ab6a-1bfc9cbbf533")
 		(property "Reference" "#PWR014"
-			(at 157.48 119.38 0)
+			(at 240.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 117.348 0)
+			(at 240.03 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 113.03 0)
+			(at 240.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 113.03 0)
+			(at 240.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 113.03 0)
+			(at 240.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8540,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 170.18 85.09 0)
+		(at 252.73 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8107,7 +8549,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1b548c8-8ff6-4847-acc1-a471041cd6b5")
 		(property "Reference" "#FLG02"
-			(at 170.18 83.185 0)
+			(at 252.73 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8558,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 80.01 0)
+			(at 252.73 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 85.09 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 85.09 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8585,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 85.09 0)
+			(at 252.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8607,7 @@
 	)
 	(symbol
 		(lib_id "power:+28V")
-		(at 165.1 62.23 270)
+		(at 247.65 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8174,7 +8616,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa006056-4705-4cb4-9913-c9352c99946a")
 		(property "Reference" "#PWR013"
-			(at 161.29 62.23 0)
+			(at 243.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8625,7 @@
 			)
 		)
 		(property "Value" "+26V"
-			(at 168.91 62.2299 90)
+			(at 251.46 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 68.58 0)
+			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 68.58 0)
+			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +8652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+28V\""
-			(at 165.1 62.23 0)
+			(at 247.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 92.71 0)
+		(at 262.89 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8240,7 +8682,7 @@
 		(dnp no)
 		(uuid "fa8b47e6-1a21-42d0-8fec-31e7f4546e52")
 		(property "Reference" "#PWR016"
-			(at 180.34 99.06 0)
+			(at 262.89 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +8691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 97.028 0)
+			(at 262.89 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 92.71 0)
+			(at 262.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 92.71 0)
+			(at 262.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 92.71 0)
+			(at 262.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,188 +8732,6 @@
 			(project "GraduateProject"
 				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 144.78 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdc547cd-f4bc-4165-804b-33bd7102f636")
-		(property "Reference" "U4"
-			(at 146.558 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L7805"
-			(at 146.558 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 140.97 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence JLCPCB" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence price@reel" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ExtendedPreferedEquivalence prive@1" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JCLPCB" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgNo" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalen JLCPCB" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@1" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "basicEquivalence price@reel" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@1" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price@reel" ""
-			(at 144.78 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa98ef75-1de1-4abc-903a-2f4bc7ab9986")
-		)
-		(pin "2"
-			(uuid "20f459eb-a203-4400-9896-fb3304eb1608")
-		)
-		(pin "3"
-			(uuid "0ac99fc9-38f1-4f28-8083-3e949fa377df")
-		)
-		(instances
-			(project "GraduateProject"
-				(path "/5608137a-e4aa-4fc5-a1c7-a13152d0b864/de7250b6-5542-41da-b336-1d929c24525c"
-					(reference "U4")
 					(unit 1)
 				)
 			)

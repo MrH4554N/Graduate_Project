@@ -1,0 +1,47 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Description,Main Version,Split Transistor Version,Buying link
+"C1,C10,C11",3,50V 10nF,,,,Capacitor_SMD:C_0805_2012Metric,Capacitor 50V 10nF 0805,,,https://www.thegioiic.com/tu-gom-0805-10nf-50v
+"C2,C4,C5,C7,C8,C13,C14,C15,C16,C17,C18,C20,C21,C22,C23",15,50V 1.5nF,,,,Capacitor_SMD:C_0805_2012Metric,Capacitor 50V 1.5nF 0805,,,https://www.thegioiic.com/tu-gom-0805-1-5nf-50v
+"C3,C19",2,50V 68nF,,,,Capacitor_SMD:C_0805_2012Metric,Capacitor 50V 68nF 0805,,,https://www.thegioiic.com/tu-gom-0805-68nf-50v
+C6,1,50V 10nF,,,,Capacitor_SMD:C_1206_3216Metric,Capacitor 50V 10nF 1206,,,https://www.thegioiic.com/tu-gom-1206-10nf-50v
+"C9,C12",2,50V 68pF,,,,Capacitor_SMD:C_0805_2012Metric,Capacitor 50V 68pF 0805,,,https://www.thegioiic.com/tu-gom-0805-68pf-50v
+"D1,D3,D5",3,ZMM36_C8082 35V,,,,easyeda2kicad:LL-34_L3.5-W1.5-RD,Diode ZMM36 35V,,,https://www.thegioiic.com/zmm36-diode-zener-36v-500mw-sod-80
+D4,1,FM4007,,,,easyeda2kicad:SOD-123FL_L2.7-W1.8-LS3.8-RD,Diode FM4007,,,https://www.thegioiic.com/twgmc-1n4007-m7-sma-diode-chinh-luu-1a-1kv
+"D7,D8",2,ZMM15_C179550 15V,,,,easyeda2kicad:SOD-80_L3.5-W1.5-RD,Diode ZMM15 15V,,,https://www.thegioiic.com/zmm15-diode-zener-15v-500mw-smd
+"IC1,IC2",2,PIC16C620A-04/SS,,,,easyeda2kicad:SSOP-20_L7.2-W5.3-P0.65-LS7.8-BL,PIC16C620A-04/SS,,,https://jlcpcb.com/partdetail/MicrochipTech-PIC16C620A_04SS/C639116
+"J1,J7,J8",3,Conn_01x05_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,"Generic connector, single row, 01x05, script generated",,,
+"J2,J5,J6",3,Conn_01x04_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Generic connector, single row, 01x04, script generated",,,
+"Q2,Q5",2,TIP110G,DNP,,,easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L,NPN Darlington transistor TIP110G,,,https://www.thegioiic.com/tip110-transistor-npn-1-ngo-ra-darlington-60v-2a-to-220
+"Q3,Q8",2,MBT3946DW1T1,DNP,,,Package_TO_SOT_SMD:SOT-363_SC-70-6,"200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363 MBT3946DW1T1",Main,,https://jlcpcb.com/partdetail/LRC-LMBT3946DW1T1G/C136169
+"Q4,Q11,Q36,Q37,Q38",5,BCX56,,,,Package_TO_SOT_SMD:SOT-89-3,"1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89 BCX56",,,https://jlcpcb.com/partdetail/25020-BCX56_RANGE_100_250/C24280
+"Q6,Q7,Q9,Q10,Q12,Q13,Q14,Q15",8,IMX1T110,DNP,,,easyeda2kicad:SOT-457_L2.9-W1.6-P0.95-LS2.80-BR,NPN transistor IMX1T110,Main,,https://jlcpcb.com/partdetail/ROHMSemicon-IMX1T110/C509893
+"Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q24,Q25,Q27,Q28,Q29,Q30,Q31,Q32,Q33,Q34,Q35",18,MMBT2222A,,,,Package_TO_SOT_SMD:SOT-23,"600mA Ic, 40V Vce, NPN Transistor, SOT-23",,Split,https://www.thegioiic.com/mmbt2222a-1p-transistor-npn-40v-0-6a-3-chan-sot-23
+"Q23,Q26",2,MMBT3906,,,,Package_TO_SOT_SMD:SOT-23,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23",,Split,https://www.thegioiic.com/mmbt3906-transistor-pnp-40v-0-2a-3-chan-sot-23
+"R1,R3,R4,R9,R12,R13,R17,R24,R46",9,1k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 1k 0805,,,https://www.thegioiic.com/dien-tro-1-kohm-0805-1-
+"R2,R5",2,4.7k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 4.7k 0805,,,https://www.thegioiic.com/dien-tro-4-7-kohm-0805-1-
+"R6,R11,R21",3,33k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 33k 0805,,,https://www.thegioiic.com/dien-tro-33-kohm-0805-1-
+"R7,R15,R23",3,3.3k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 3.3k 0805,,,https://www.thegioiic.com/dien-tro-3-3-kohm-0805-1-
+"R8,R54",2,10R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 10R 0805,,,https://www.thegioiic.com/dien-tro-10-ohm-0805-1-
+"R10,R27,R29,R30,R31,R32,R33,R34,R38",9,100R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 100R 0805,,,https://www.thegioiic.com/dien-tro-100-ohm-0805-1-
+"R18,R20,R25,R44",4,47k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 47k 0805,,,https://www.thegioiic.com/dien-tro-47-kohm-0805-1-
+"R19,R22,R50,R51",4,10k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 10k 0805,,,https://www.thegioiic.com/dien-tro-10-kohm-0805-1-
+"R26,R43,R45",3,4.7R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 4.7R 0805,,,https://www.thegioiic.com/dien-tro-4-7-ohm-0805-5-
+"R28,R40",2,330R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 330R 0805,,,https://www.thegioiic.com/dien-tro-330-ohm-0805-1-
+"R35,R39",2,150R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 150R 0805,,,https://www.thegioiic.com/dien-tro-150-ohm-0805-5-
+"R36,R42",2,470R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 470R 0805,,,https://www.thegioiic.com/dien-tro-470-ohm-0805-1-
+"R37,R41,R49,R53",4,270R,,,,Resistor_SMD:R_0805_2012Metric,Resistor 270R 0805,,,https://www.thegioiic.com/dien-tro-270-ohm-0805-5-
+"R47,R52,R57,R58",4,100k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 100k 0805,,,https://www.thegioiic.com/dien-tro-100-kohm-0805-1-
+"R48,R55,R56,R59",4,27k,,,,Resistor_SMD:R_0805_2012Metric,Resistor 27k 0805,,,https://www.thegioiic.com/dien-tro-27-kohm-0805-5-
+"REL1,REL2",2,V23057-B0006-A101,,,,easyeda2kicad:RELAY-TH_TE_V23057BXXX,Relay V23057-B0006-A101,,,https://jlcpcb.com/partdetail/TEConnectivity-V23057_B0006A101/C1564084
+SW1,1,SS12D10G3,,,,easyeda2kicad:SW-TH_3P-P4.8-L12.7-W6.7_SS12D10G3,Switch SS12D10G3,,,https://www.thegioiic.com/ss12d00g4-cong-tac-truot-3-chan-xuyen-lo-on-off-1p2t-0-5a
+"TU1,TU2",2,10uF 16V,,,,easyeda2kicad:CAP-SMD_L3.2-W1.6-RD-C7171,Capacitor tantalum 10uF 16V,,,https://www.thegioiic.com/tu-tantalum-10uf-16v-2312-tajc106k016rnj
+"TU3,TU7",2,3.3uF 35V,,,,easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD,Capacitor tantalum 3.3uF 35V,,,https://jlcpcb.com/partdetail/-TAJC335K035RNJ/C22230
+TU4,1,2.2uF 35V,,,,easyeda2kicad:CAP-SMD_L3.5-W2.8-R-RD,Capacitor tantalum 2.2uF 35V,,,https://jlcpcb.com/partdetail/-TAJB225K035RNJ/C19276
+"U1,U3",2,LM7805T,,,,easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L,Regulator 5V LM7805T,,,https://www.thegioiic.com/lm7805t-ic-on-ap-5v-1-5a-to-220-3
+U2,1,TLP181GB-S,,,,easyeda2kicad:SOP-4_L3.7-W4.6-P2.54-LS7.0-TL,Optoisolator TLP181GB-S,,,https://jlcpcb.com/partdetail/363305-TLP181GB_S_UMW/C388374
+U4,1,L7815CV,,,,easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L,Regulator 15V L7815CV,,,https://www.thegioiic.com/l7815cv-ic-on-ap-15v-1-5a
+"U5,U7",2,B0505S-1W,,,,easyeda2kicad:PWRM-TH_BXXXXS-1W,Regulator 5V B0505S-1W,,,https://www.thegioiic.com/b0505s-1wr3-chuyen-doi-dc-dc-vao-5v-ra-5v-1w
+,,,,,,,,,,
+,,,,,,,,Chú thích,,Chú thích
+,,,,,,,,Dùng cho c? 2 phiên b?n,,thegioiic.com
+,,,,,,,,Phiên b?n không tách transistor ,,jlcpcb.com
+,,,,,,,,Phiên b?n tách transistor,,
